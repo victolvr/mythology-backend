@@ -1,4 +1,4 @@
-const God = require("../models/god")
+const God = require("../models/godModels")
 const bcrypt = require("bcryptjs")
 
 // Criar novo deus

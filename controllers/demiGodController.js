@@ -1,4 +1,4 @@
-const Demigod = require("../models/demigod")
+const Demigod = require("../models/demiGodModels")
 
 // Criar novo semideus
 exports.createDemigod = async (req, res) => {

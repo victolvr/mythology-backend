@@ -2,7 +2,7 @@ const express = require("express")
 const mongoose = require("mongoose")
 const cors = require("cors")
 const godRoutes = require("./routes/godRoutes")
-const demigodRoutes = require("./routes/demigodRoutes")
+const demigodRoutes = require("./routes/demiGodRoutes")
 const app = express()
 const PORT = process.env.PORT || 3000
 
@@ -13,7 +13,7 @@ app.use(cors())
 
 // Conectando ao MongoDB
 mongoose
-  .connect("mongodb://localhost:27017/mythologydb", {
+  .connect("mongodb+srv://pvictorolv1:Jesus10@cluster0.9cscxze.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
